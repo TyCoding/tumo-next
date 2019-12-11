@@ -173,8 +173,8 @@ changyan:
 # Valine. 评论插件
 valine:
   enable: true
-  appid:  RfrXFjpg2cghYo3z7dypcSdy-gzGzoHsz # your leancloud application appid
-  appkey:  JwNt0o6aEvm6WsQ78LGWFz06 # your leancloud application appkey
+  appid:   # your leancloud application appid
+  appkey:  # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
