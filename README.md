@@ -8,7 +8,7 @@
 
 
 
-**Theme style reference [https://mrbird.cc/](https://mrbird.cc/). **
+Theme style reference [https://mrbird.cc/](https://mrbird.cc/).
 
 ## Simple
 
