@@ -41,7 +41,7 @@ theme: tumo-next
 
 >    Change Sidebar Menu
 
-Sidebar menu is Hexo social links. If you change sidebar menu, you need edit `themes/tumo-next/_config.yml`. When you finish config, you need to restart the hexo service.
+Sidebar Menu 对应了Hexo social Links，其中每个链接 `||` 后面是Font Awesome 图标名称，你可以修改 `themes/tumo-next/_config.yml` 配置改变侧边栏菜单: 
 
 ```yaml
 social:
@@ -52,7 +52,7 @@ social:
 
 >   Change Header Menu
 
-If you change header menu, you need also edit `themes/tumo-next/_config.yml`: 
+Header Menu 和Next主题一致，但是移除了Font Awesome 图标的显示，你需要按照我以下的配置写，编辑文件 `themes/tumo-next/_config.yml`: 
 
 ```yaml
 menu:
@@ -62,13 +62,13 @@ menu:
   links: /links/
 ```
 
-Others, Header menu is fixed, If you want to add a new Page ( create  a new URL Page ), you need to use `hexo new xx` to create new Markdown file, Hexo will render this file with the file directory as the new URL.
+另外，Header Menu 是相对固定的，如果你需要新增页面（URL），你需要使用`hexo new page xx` 命令在`source`目录下创建新的markdown文件，Hexo将选择这个文件作为新的页面。
 
 
 
 >   Change Top Menu 
 
-You can top links, it will display globally. You need edit `themes/tumo-next/_config.yml`:
+你也可以设定全局置顶的链接，这里提供一种简洁的方式，仅仅需要修改 `themes/tumo-next/_config.yml`:
 
 ```yaml
 top:
