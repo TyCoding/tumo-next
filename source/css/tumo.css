@@ -1,0 +1,164 @@
+/* build time:Tue Dec 03 2019 19:30:07 GMT+0800 (GMT+08:00)*/
+@media screen and (min-width: 1400px) {
+  body {
+      font-size:15px!important
+  }
+
+  .menu .menu-item a {
+      font-size: 15px!important
+  }
+
+  .site-meta .site-title {
+      font-size: 23px!important;
+      color: #111
+  }
+
+  .posts-expand .post-title-link {
+      font-size: 18px!important
+  }
+
+  .posts-expand .post-title {
+      font-size: 18px!important
+  }
+
+  .posts-expand .post-body h2 {
+      font-size: 17px!important
+  }
+
+  .posts-expand .post-body h3 {
+      font-size: 16px!important
+  }
+
+  .posts-expand .post-meta {
+      font-size: 14px!important
+  }
+
+  .post-button .btn {
+      font-size: 15px!important
+  }
+
+  .highlight,pre {
+      font-size: 15px!important
+  }
+
+  .footer {
+      font-size: 16px!important;
+      padding: 15px 0!important
+  }
+
+  .page-archive .archive-page-counter {
+      font-size: 19px!important
+  }
+
+  .page-archive .archive-year {
+      font-size: 19px!important
+  }
+
+  .posts-collapse .post-title {
+      margin: 6px 0 6px 90px!important;
+      padding-bottom: 5px!important;
+      letter-spacing: .4px!important
+  }
+
+  .posts-collapse .post-title a {
+      font-size: 16px!important
+  }
+
+  .posts-collapse .post-meta {
+      font-size: 16px!important
+  }
+
+  .sidebar-nav li {
+      font-size: 17px!important
+  }
+
+  .post-toc ol {
+      font-size: 15px!important
+  }
+
+  .post-nav-item a {
+      font-size: 15px!important
+  }
+
+  .posts-expand .post-tags a {
+      font-size: 15px!important
+  }
+
+  .sidebar-sticky li,.sidebar-sticky p {
+      font-size: 17px!important;
+      margin-right: 15px
+  }
+
+  .author__urls a {
+      font-size: 15px!important;
+      padding-top: 1px!important
+  }
+
+  .sidebar-sticky .author__name {
+      font-size: 1.5rem!important
+  }
+
+  .sidebar-sticky {
+      padding: 30px 10px!important
+  }
+
+  .author__avatar img {
+      padding: 7px;
+      max-width: 120px!important
+  }
+
+  .tag-cloud a {
+      font-size: 15px!important;
+      width: 180px!important
+  }
+
+  .tag-cloud-title {
+      font-size: 20px!important
+  }
+
+  .friends-model {
+      font-size: 20px!important
+  }
+
+  .friends-href a {
+      font-size: 19px!important;
+      width: 255px!important
+  }
+
+  .sidebar {
+      width: 345px!important
+  }
+
+  .local-search-popup {
+      height: 60%!important;
+      width: 800px!important;
+      top: 20%!important
+  }
+
+  .tag-cloud {
+      width: 1200px!important;
+      margin-left: -20px
+  }
+
+  #sidebar {
+      width: 345px!important
+  }
+
+  .terminal {
+      padding: 55px 10px 10px!important
+  }
+
+  .sidebar-sticky li,.sidebar-sticky p {
+      width: 83%
+  }
+
+  .valine .vinfo .col {
+      margin-left: -37.5rem!important
+  }
+
+  table {
+      font-size: 15px!important
+  }
+}
+
+/* rebuild by neat */
