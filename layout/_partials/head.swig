@@ -71,7 +71,7 @@
 {% endif %}
 <link href="{{ font_awesome_uri }}" rel="stylesheet" type="text/css" />
 
-<link href="/css/tumo.css" rel="stylesheet" type="text/css" />
+<link href="{{ url_for(theme.css) }}/tumo.css" rel="stylesheet" type="text/css" />
 
 <link href="{{ url_for(theme.css) }}/main.css?v={{ theme.version }}" rel="stylesheet" type="text/css" />
 
