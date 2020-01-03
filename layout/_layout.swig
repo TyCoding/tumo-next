@@ -85,5 +85,8 @@
   {% include '_third-party/scroll-cookie.swig' %}
   {% include '_third-party/exturl.swig' %}
 
+  <canvas id="fireworks" style="position:fixed;left:0;top:0;pointer-events:none;"></canvas>
+  <script type="text/javascript" src="{{ url_for(theme.js) }}/src/fireworks.js"></script>
+
 </body>
 </html>
