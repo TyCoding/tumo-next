@@ -85,8 +85,9 @@
   {% include '_third-party/scroll-cookie.swig' %}
   {% include '_third-party/exturl.swig' %}
 
-  <canvas id="fireworks" style="position:fixed;left:0;top:0;pointer-events:none;"></canvas>
-  <script type="text/javascript" src="{{ url_for(theme.js) }}/src/fireworks.js"></script>
-
+  <script type="text/javascript" src="{{ url_for(theme.js) }}/src/mo.min.js"></script>
+  <script>$(function(){$("a").not(".nav-link,.cloud-tie-join-count,.ignore-href,.jstree-anchor").addClass("animsition-link")});var burst1=new mojs.Burst({left:0,top:0,radius:{5:40},children:{shape:"circle",fill:["red","cyan","orange"],fillOpacity:.8,radiusX:3.5,radiusY:3.5}});document.addEventListener("click",function(a){null==a.target.href&&"footer"!=a.target.className&&"copyright"!=a.target.className&&"author__urls social-icons"!=a.target.className&&"author__avatar"!=a.target.className&&"sidebar sidebar-active"!=a.target.className&&burst1.tune({x:a.pageX,y:a.pageY}).generate().replay()})</script>
+  <div data-name="mojs-shape"></div>
+  
 </body>
 </html>
